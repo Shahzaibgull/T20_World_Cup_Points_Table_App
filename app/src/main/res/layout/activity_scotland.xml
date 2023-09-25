@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scotland">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="122dp"
+        android:text="@string/scotland_squad"
+        android:textColor="#0D8712"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="413dp"
+        android:layout_height="588dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow android:background="#4CAF50">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/player"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/born"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/bat_bowl"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/babar_azam_captain"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/lahore_15_10_1994"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="RHB OB"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/abdullah_shaft"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/sialkot_20_11_1999"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/rhb_ob"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/abid_ali"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/lahore_16_10_1987"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/rhb_lb"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/arshad_iqbal"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/swabi_26_12_2000"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/rhb_rmf"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/asif_ali"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/faisalabad_01_10_1991"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/rhb_rmf"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/asif_afridi"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/peshawar_25_12_1986"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/lhb_sla"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/azam_khan"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/_10_08_1998"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/rhb_wk"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/azhar_ali"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/lahore_19_02_1985"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/rhb_lb"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/bilal_asif"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/sialkot_24_09_1985"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/rhb_ob"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="#7FD9E4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/fahim_ashraf"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/kasur_16_01_1994"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/lhb_rm"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
